@@ -1,0 +1,194 @@
+<DATA>
+  <MRLGroup>
+    <MarketID>6209</MarketID>
+    <MarketName>United Arab Emirates</MarketName>
+    <BCIActiveIngredientID>28548</BCIActiveIngredientID>
+    <BCIActiveIngredientName>Zoxamide</BCIActiveIngredientName>
+    <AGQActiveIngredientID>1665</AGQActiveIngredientID>
+    <AGQActiveIngredientName>Zoxamida</AGQActiveIngredientName>
+    <IndexCommodityID>68669</IndexCommodityID>
+    <IndexCommodityName>Bean, pinto</IndexCommodityName>
+    <ScientificName>Phaseolus vulgaris L., several cultivars</ScientificName>
+    <MRLCount>3</MRLCount>
+    <MRLs>
+      <MRL xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <PublishedCommodityID>60682</PublishedCommodityID>
+        <PublishedCommodityName>Beans (with pods)</PublishedCommodityName>
+        <MRLTypeID>238</MRLTypeID>
+        <MRLTypeName>General</MRLTypeName>
+        <DeferredToMarketID>6084</DeferredToMarketID>
+        <DeferredToMarketName>European Union</DeferredToMarketName>
+        <UndefinedCommodityLinkInd>false</UndefinedCommodityLinkInd>
+        <MRLValueInPPM>0.02</MRLValueInPPM>
+        <ResidueDefinition>Zoxamide</ResidueDefinition>
+        <AdditionalRegulationNotes>Fresh or frozen vegetables. MRL applies to whole product. Other
+          products to which the EU Beans (with pods) MRL applies are Azuki beans, Black eyed
+          peas/cowpeas, Broad beans/fava beans/horse beans/tic beans, Borlotti beans/cannelini
+          beans/common beans/flageolets/French beans/slicing beans/snap beans, Ervils/lentil
+          vetches,
+          Guar beans, Jack beans, Lablab beans/hyacinth beans, Lima beans/butter beans, Monantha
+          vetches, Mung beans, Rice beans, Runner beans/scarlet runner beans, Soyabeans/edamame,
+          Stink
+          beans, Vetches, and Yardlong beans as designated in Annex I to Regulation (EC) No
+          396/2005.
+        </AdditionalRegulationNotes>
+        <ExpiryDate xsi:nil="true"/>
+        <PrimaryInd>true</PrimaryInd>
+        <ExemptInd>false</ExemptInd>
+      </MRL>
+      <MRL xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <PublishedCommodityID>60683</PublishedCommodityID>
+        <PublishedCommodityName>Beans (without pods)</PublishedCommodityName>
+        <MRLTypeID>238</MRLTypeID>
+        <MRLTypeName>General</MRLTypeName>
+        <DeferredToMarketID>6084</DeferredToMarketID>
+        <DeferredToMarketName>European Union</DeferredToMarketName>
+        <UndefinedCommodityLinkInd>false</UndefinedCommodityLinkInd>
+        <MRLValueInPPM>0.02</MRLValueInPPM>
+        <ResidueDefinition>Zoxamide</ResidueDefinition>
+        <AdditionalRegulationNotes>Fresh or frozen vegetables. MRL applies to whole product. Other
+          products to which the EU Beans (without pods) MRL applies are species listed with code
+          numbers
+          0260010-xxx, without pods (Azuki beans, Black eyed peas/cowpeas, Broad beans/fava
+          beans/horse
+          beans/tic beans, Borlotti beans/cannelini beans/common beans/flageolets/French
+          beans/slicing
+          beans/snap beans, Ervils/lentil vetches, Guar beans, Jack beans, Lablab beans/hyacinth
+          beans,
+          Lima beans/butter beans, Monantha vetches, Mung beans, Rice beans, Runner beans/scarlet
+          runner
+          beans, Soyabeans/edamame, Stink beans, Vetches, and Yardlong beans) as designated in Annex
+          I
+          to Regulation (EC) No 396/2005.
+        </AdditionalRegulationNotes>
+        <ExpiryDate xsi:nil="true"/>
+        <PrimaryInd>false</PrimaryInd>
+        <ExemptInd>false</ExemptInd>
+      </MRL>
+      <MRL xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <PublishedCommodityID>60705</PublishedCommodityID>
+        <PublishedCommodityName>Pulses; Beans</PublishedCommodityName>
+        <MRLTypeID>238</MRLTypeID>
+        <MRLTypeName>General</MRLTypeName>
+        <DeferredToMarketID>6084</DeferredToMarketID>
+        <DeferredToMarketName>European Union</DeferredToMarketName>
+        <UndefinedCommodityLinkInd>false</UndefinedCommodityLinkInd>
+        <MRLValueInPPM>0.02</MRLValueInPPM>
+        <ResidueDefinition>Zoxamide</ResidueDefinition>
+        <AdditionalRegulationNotes>MRL applies to dry seeds. Other products to which the EU Beans
+          MRL
+          applies are species listed with code numbers 0260010-xxx, dried seeds, except
+          soyabeans/edamame (Azuki beans, Black eyed peas/cowpeas, Broad beans/fava beans/horse
+          beans/tic beans, Borlotti beans/cannelini beans/common beans/flageolets/French
+          beans/slicing
+          beans/snap beans, Ervils/lentil vetches, Guar beans, Jack beans, Lablab beans/hyacinth
+          beans,
+          Lima beans/butter beans, Monantha vetches, Mung beans, Rice beans, Runner beans/scarlet
+          runner
+          beans, Stink beans, Vetches, and Yardlong beans) as designated in Annex I to Regulation
+          (EC)
+          No 396/2005.
+        </AdditionalRegulationNotes>
+        <ExpiryDate xsi:nil="true"/>
+        <PrimaryInd>false</PrimaryInd>
+        <ExemptInd>false</ExemptInd>
+      </MRL>
+    </MRLs>
+  </MRLGroup>
+  <MRLGroup>
+    <MarketID>6210</MarketID>
+    <MarketName>United Arab Emirates</MarketName>
+    <BCIActiveIngredientID>28548</BCIActiveIngredientID>
+    <BCIActiveIngredientName>Zoxamide</BCIActiveIngredientName>
+    <AGQActiveIngredientID>1665</AGQActiveIngredientID>
+    <AGQActiveIngredientName>Zoxamida</AGQActiveIngredientName>
+    <IndexCommodityID>68672</IndexCommodityID>
+    <IndexCommodityName>Bean, snap</IndexCommodityName>
+    <ScientificName>Phaseolus vulgaris L. var. vulgaris</ScientificName>
+    <MRLCount>3</MRLCount>
+    <MRLs>
+      <MRL xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <PublishedCommodityID>60682</PublishedCommodityID>
+        <PublishedCommodityName>Beans (with pods)</PublishedCommodityName>
+        <MRLTypeID>238</MRLTypeID>
+        <MRLTypeName>General</MRLTypeName>
+        <DeferredToMarketID>6084</DeferredToMarketID>
+        <DeferredToMarketName>European Union</DeferredToMarketName>
+        <UndefinedCommodityLinkInd>false</UndefinedCommodityLinkInd>
+        <MRLValueInPPM>0.02</MRLValueInPPM>
+        <ResidueDefinition>Zoxamide</ResidueDefinition>
+        <AdditionalRegulationNotes>Fresh or frozen vegetables. MRL applies to whole product. Other
+          products to which the EU Beans (with pods) MRL applies are Azuki beans, Black eyed
+          peas/cowpeas, Broad beans/fava beans/horse beans/tic beans, Borlotti beans/cannelini
+          beans/common beans/flageolets/French beans/slicing beans/snap beans, Ervils/lentil
+          vetches,
+          Guar beans, Jack beans, Lablab beans/hyacinth beans, Lima beans/butter beans, Monantha
+          vetches, Mung beans, Rice beans, Runner beans/scarlet runner beans, Soyabeans/edamame,
+          Stink
+          beans, Vetches, and Yardlong beans as designated in Annex I to Regulation (EC) No
+          396/2005.
+        </AdditionalRegulationNotes>
+        <ExpiryDate xsi:nil="true"/>
+        <PrimaryInd>true</PrimaryInd>
+        <ExemptInd>false</ExemptInd>
+      </MRL>
+      <MRL xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <PublishedCommodityID>60683</PublishedCommodityID>
+        <PublishedCommodityName>Beans (without pods)</PublishedCommodityName>
+        <MRLTypeID>238</MRLTypeID>
+        <MRLTypeName>General</MRLTypeName>
+        <DeferredToMarketID>6084</DeferredToMarketID>
+        <DeferredToMarketName>European Union</DeferredToMarketName>
+        <UndefinedCommodityLinkInd>false</UndefinedCommodityLinkInd>
+        <MRLValueInPPM>0.02</MRLValueInPPM>
+        <ResidueDefinition>Zoxamide</ResidueDefinition>
+        <AdditionalRegulationNotes>Fresh or frozen vegetables. MRL applies to whole product. Other
+          products to which the EU Beans (without pods) MRL applies are species listed with code
+          numbers
+          0260010-xxx, without pods (Azuki beans, Black eyed peas/cowpeas, Broad beans/fava
+          beans/horse
+          beans/tic beans, Borlotti beans/cannelini beans/common beans/flageolets/French
+          beans/slicing
+          beans/snap beans, Ervils/lentil vetches, Guar beans, Jack beans, Lablab beans/hyacinth
+          beans,
+          Lima beans/butter beans, Monantha vetches, Mung beans, Rice beans, Runner beans/scarlet
+          runner
+          beans, Soyabeans/edamame, Stink beans, Vetches, and Yardlong beans) as designated in Annex
+          I
+          to Regulation (EC) No 396/2005.
+        </AdditionalRegulationNotes>
+        <ExpiryDate xsi:nil="true"/>
+        <PrimaryInd>false</PrimaryInd>
+        <ExemptInd>false</ExemptInd>
+      </MRL>
+      <MRL xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <PublishedCommodityID>60705</PublishedCommodityID>
+        <PublishedCommodityName>Pulses; Beans</PublishedCommodityName>
+        <MRLTypeID>238</MRLTypeID>
+        <MRLTypeName>General</MRLTypeName>
+        <DeferredToMarketID>6084</DeferredToMarketID>
+        <DeferredToMarketName>European Union</DeferredToMarketName>
+        <UndefinedCommodityLinkInd>false</UndefinedCommodityLinkInd>
+        <MRLValueInPPM>0.02</MRLValueInPPM>
+        <ResidueDefinition>Zoxamide</ResidueDefinition>
+        <AdditionalRegulationNotes>MRL applies to dry seeds. Other products to which the EU Beans
+          MRL
+          applies are species listed with code numbers 0260010-xxx, dried seeds, except
+          soyabeans/edamame (Azuki beans, Black eyed peas/cowpeas, Broad beans/fava beans/horse
+          beans/tic beans, Borlotti beans/cannelini beans/common beans/flageolets/French
+          beans/slicing
+          beans/snap beans, Ervils/lentil vetches, Guar beans, Jack beans, Lablab beans/hyacinth
+          beans,
+          Lima beans/butter beans, Monantha vetches, Mung beans, Rice beans, Runner beans/scarlet
+          runner
+          beans, Stink beans, Vetches, and Yardlong beans) as designated in Annex I to Regulation
+          (EC)
+          No 396/2005.
+        </AdditionalRegulationNotes>
+        <ExpiryDate xsi:nil="true"/>
+        <PrimaryInd>false</PrimaryInd>
+        <ExemptInd>false</ExemptInd>
+      </MRL>
+    </MRLs>
+  </MRLGroup>
+</DATA>
