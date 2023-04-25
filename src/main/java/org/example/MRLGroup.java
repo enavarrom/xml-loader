@@ -1,17 +1,20 @@
 package org.example;
 
-import lombok.*;
+import java.util.Map;
 
-@Setter
-@Getter
-@NoArgsConstructor
-@Builder
-@AllArgsConstructor
-@ToString
 public class MRLGroup {
 
-    private String marketId;
+    private Map<String, String> data;
 
-    private String marketName;
+    public MRLGroup(Map<String, String> data) {
+        this.data = data;
+    }
 
+    public Map<String, String> getData() {
+        return data;
+    }
+
+    public void setData(Map<String, String> data) {
+        this.data = data;
+    }
 }

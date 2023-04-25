@@ -1,27 +1,51 @@
 package org.example;
 
-import lombok.*;
-
 import java.util.List;
 import java.util.Map;
-import lombok.ToString.Include;
 
-@Builder
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
-@ToString(onlyExplicitlyIncluded = true)
+
 public class XmlDocument {
 
-    @Include
     private String tagName;
 
-    @Include
     private String value;
 
     private Map<String, String> attributes;
 
-    @Include
     private List<XmlDocument> childs;
+
+    public XmlDocument() {
+    }
+
+    public String getTagName() {
+        return tagName;
+    }
+
+    public void setTagName(String tagName) {
+        this.tagName = tagName;
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
+
+    public Map<String, String> getAttributes() {
+        return attributes;
+    }
+
+    public void setAttributes(Map<String, String> attributes) {
+        this.attributes = attributes;
+    }
+
+    public List<XmlDocument> getChilds() {
+        return childs;
+    }
+
+    public void setChilds(List<XmlDocument> childs) {
+        this.childs = childs;
+    }
 }

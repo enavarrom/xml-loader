@@ -1,25 +1,21 @@
 package org.example;
 
-import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class MRLGroupItemProcessor implements Processor<XmlDocument, MRLGroup>{
+
     @Override
     public MRLGroup process(XmlDocument input) {
-        return MRLGroup.builder()
-                .marketId(getValue("MarketID", input))
-                .marketName(getValue("MarketName", input))
-                .build();
+        return new MRLGroup(getData(input));
     }
 
-    private String getValue(String tagName, XmlDocument document) {
+    private Map<String, String> getData(XmlDocument document) {
         if (!document.getChilds().isEmpty()) {
             return document.getChilds().stream()
-                    .filter(xmlDocument -> xmlDocument.getTagName().equals(tagName))
-                    .map(XmlDocument::getValue)
-                    .findFirst()
-                    .orElse(null);
+                .filter(xmlDocument -> xmlDocument.getValue() != null)
+                .collect(Collectors.toMap(XmlDocument::getTagName, XmlDocument::getValue));
         }
-
         return null;
     }
 

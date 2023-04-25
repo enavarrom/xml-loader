@@ -1,16 +1,18 @@
 package org.example;
 
+
+import javax.xml.stream.XMLEventReader;
+import javax.xml.stream.XMLInputFactory;
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.events.Attribute;
+import javax.xml.stream.events.StartElement;
+import javax.xml.stream.events.XMLEvent;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import javax.xml.stream.XMLEventReader;
-import javax.xml.stream.XMLInputFactory;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.events.StartElement;
-import javax.xml.stream.events.XMLEvent;
 
 public class CustomXMLItemReader implements Reader<XmlDocument>{
 
@@ -52,8 +54,12 @@ public class CustomXMLItemReader implements Reader<XmlDocument>{
                     xmlDocument = new XmlDocument();
                     xmlDocument.setTagName(startElement.getName().getLocalPart());
                     Map<String, String> attributesValues = new HashMap<>();
-                    startElement.getAttributes().forEachRemaining(attribute
-                        -> attributesValues.put(attribute.getName().getLocalPart(), attribute.getValue()));
+
+                    startElement.getAttributes().forEachRemaining(action -> {
+                        Attribute attribute = (Attribute) action;
+                        attributesValues.put(attribute.getName().getLocalPart(), attribute.getValue());
+                    });
+
                     if (!attributesValues.isEmpty()) {
                         xmlDocument.setAttributes(attributesValues);
                     }
@@ -71,7 +77,7 @@ public class CustomXMLItemReader implements Reader<XmlDocument>{
             if (event.isCharacters()) {
                 if (xmlDocument != null) {
                     String value = event.asCharacters().getData();
-                    if (!value.isBlank() && !value.isEmpty()) {
+                if (value != null && !value.trim().isEmpty()) {
                         xmlDocument.setValue(value);
                     }
                 }

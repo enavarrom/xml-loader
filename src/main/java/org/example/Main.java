@@ -10,10 +10,13 @@ public class Main {
         Processor<XmlDocument, MRLGroup> processor = new MRLGroupItemProcessor();
         Writer<MRLGroup> writer = new MRLGroupItemWriter();
 
-        JobLoaderFile<XmlDocument, MRLGroup> job
-                = new JobLoaderFile<>("jobMRL", reader, processor,
-                writer, 10, 1);
-
+        JobLoaderFile<XmlDocument, MRLGroup> job = new JobLoaderFile<>();
+        job.setJobName("jobMRL");
+        job.setReader(reader);
+        job.setProcessor(processor);
+        job.setWriter(writer);
+        job.setFetchSize(1);
+        job.setChunkSize(2);
         job.launch();
 
         //System.out.println("Hello world!");
