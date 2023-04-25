@@ -1,18 +1,18 @@
 package org.example;
 
 
-import javax.xml.stream.XMLEventReader;
-import javax.xml.stream.XMLInputFactory;
-import javax.xml.stream.XMLStreamException;
-import javax.xml.stream.events.Attribute;
-import javax.xml.stream.events.StartElement;
-import javax.xml.stream.events.XMLEvent;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import javax.xml.stream.XMLEventReader;
+import javax.xml.stream.XMLInputFactory;
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.events.Attribute;
+import javax.xml.stream.events.StartElement;
+import javax.xml.stream.events.XMLEvent;
 
 public class CustomXMLItemReader implements Reader<XmlDocument>{
 
@@ -27,7 +27,10 @@ public class CustomXMLItemReader implements Reader<XmlDocument>{
             .newInstance()
             .createXMLEventReader(new FileInputStream(path));
         discardTags = new ArrayList<>();
-        discardTags.add("DATA");
+    }
+
+    public void addDiscardTags(String tagName) {
+        discardTags.add(tagName);
     }
 
     @Override
@@ -77,7 +80,7 @@ public class CustomXMLItemReader implements Reader<XmlDocument>{
             if (event.isCharacters()) {
                 if (xmlDocument != null) {
                     String value = event.asCharacters().getData();
-                if (value != null && !value.trim().isEmpty()) {
+                    if (value != null && !value.trim().isEmpty()) {
                         xmlDocument.setValue(value);
                     }
                 }
@@ -107,13 +110,4 @@ public class CustomXMLItemReader implements Reader<XmlDocument>{
         }
     }
 
-  /*  @Override
-    public T read() throws XMLStreamException {
-        if (xmlEventReader.hasNext()) {
-            return map(xmlEventReader.nextEvent());
-        }
-        return null;
-    }*/
-
-    //protected abstract T map(XMLEvent xmlEvent);
 }
